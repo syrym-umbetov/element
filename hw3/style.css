@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+
+#section {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #fe5000;
+  border-radius: 5px;
+  color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.input {
+  background-color: white;
+}
