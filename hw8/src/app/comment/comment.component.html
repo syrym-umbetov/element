@@ -1,0 +1,8 @@
+<ul *ngFor="let comment of comments | async">
+  <li class="comment-container">
+    <div class="d-flex align-center my-1" class="accordion">
+      <p class="comment-email">{{ comment.email }}</p>
+    </div>
+    <p class="comment-body">{{ comment.body }}</p>
+  </li>
+</ul>

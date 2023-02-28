@@ -1,0 +1,17 @@
+<h1>Posts</h1>
+<ul *ngFor="let post of posts | async">
+  <li class="post-container">
+    <div class="d-flex align-center my-1">
+      <p class="post-title ml-10" data-id="{{ post.id }}">{{ post.title }}</p>
+    </div>
+
+    <span id="{{ post.id }}" class="post-body" style="max-width: 650px">
+      {{ post.body }}
+    </span>
+
+    <hr class="seperator" />
+    <h2 class="comment-header"></h2>
+
+    <app-comment [id]="post.id"></app-comment>
+  </li>
+</ul>
