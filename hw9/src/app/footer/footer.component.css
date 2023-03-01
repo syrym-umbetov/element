@@ -1,0 +1,54 @@
+.top {
+  background-color: var(--main-color);
+  height: 430px;
+  box-sizing: border-box;
+  padding: 73px 165px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom {
+  background-color: #004d7b;
+  height: 70px;
+  padding: 73px 165px;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.wrapper {
+  display: flex;
+  color: white;
+  gap: 2rem;
+}
+
+.wrapper ul {
+  list-style: none;
+}
+
+.wrapper ul > li:first-of-type {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+
+.wrapper ul > li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 1rem;
+}
+
+.bottom > div > img {
+  margin: 0 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}

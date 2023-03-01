@@ -1,0 +1,43 @@
+section {
+  height: 924px;
+  background: linear-gradient(
+    330.22deg,
+    rgba(221, 231, 247, 0) 25.58%,
+    #dce7f7 53.4%,
+    #e8eef6 78.25%
+  );
+  padding: 150px 117px 0 161px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5.5rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+  font-family: "Playfair Display", serif;
+}
+
+button {
+  background-color: var(--main-color);
+  color: white;
+  padding: 1.75rem 2.25rem;
+  box-sizing: border-box;
+  height: 5rem;
+  border-radius: 0.5rem;
+  margin-top: 3rem;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  border: 1px solid transparent;
+}
+
+img {
+  margin-top: -200px;
+  object-fit: cover;
+}

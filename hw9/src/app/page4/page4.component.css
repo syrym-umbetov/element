@@ -1,0 +1,114 @@
+.testimonials {
+  height: 610px;
+  background: #f2f7ff;
+  box-sizing: border-box;
+  padding: 3rem 10rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+  letter-spacing: 0.5px;
+  font-feature-settings: "salt" on, "liga" off;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 32px;
+  min-height: 220px;
+}
+
+.card p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.card div {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  /* or 171% */
+}
+
+.marginTop {
+  margin-top: 2rem;
+}
+
+.marginTop > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: start;
+}
+
+.person > div:first-of-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.person > div:last-of-type {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.questions {
+  padding: 2.5rem 165px;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.questions-left h2 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.questions-left p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.questions-left button {
+  padding: 1rem 2.25rem;
+  width: 219px;
+  box-sizing: border-box;
+  background-color: var(--main-color);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: white;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+}
+
+.questions-right img {
+  border-bottom-left-radius: 2.5rem;
+}

@@ -1,0 +1,37 @@
+section {
+  background: var(--main-color);
+  padding: 3.5rem;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+ul > li {
+  border-right: 1px solid #ffffff;
+}
+
+li {
+  padding: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+li div:first-of-type {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3rem;
+}
